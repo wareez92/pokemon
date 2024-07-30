@@ -22,6 +22,11 @@ img {
   animation: bounce .5s infinite ease;
 }
 
+.pokecard:nth-of-type(even) > img {
+  animation: bounce .5s infinite ease;
+
+}
+
 @keyframes bounce {
   0% {
     transform: translateY(-.1em);
